@@ -23,7 +23,7 @@ def display_2():
 def display_c(text):
     """ Displays "C" and the content of <text>"""
     text = text.replace('_', ' ')
-    return f"C {text}"
+    return "C " + text
 
 
 if __name__ == "__main__":
