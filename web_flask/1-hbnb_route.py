@@ -9,14 +9,14 @@ app = Flask(__name__)
 
 @app.route('/', strict_slashes=False)
 def display_1():
-    ''' Function to display HBNH '''
+    ''' Function to display HBNB '''
     return "Hello HBNB!"
 
 
 @app.route('/hbnb', strict_slashes=False)
 def display_2():
-    ''' Function to display HBNH '''
-    return "HBNH"
+    ''' Function to display HBNB '''
+    return "HBNB"
 
 
 if __name__ == "__main__":
