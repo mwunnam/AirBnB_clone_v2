@@ -40,10 +40,10 @@ def display_5(n):
 def display_6(n):
     if ((n % 2) == 0):
         message = f'{n} is even'
-        return render_template('6-number.html', message=message)
+        return render_template('6-number_odd_or_even.html', message=message)
     else:
         message = f'{n} is odd'
-        return render_template('6-number.html', message=message)
+        return render_template('6-number_odd_or_even.html', message=message)
 
 
 if __name__ == "__main__":
