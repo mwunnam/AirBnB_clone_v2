@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 '''Script that print something'''
+from flask import render_template
 from flask import Flask
 
 
