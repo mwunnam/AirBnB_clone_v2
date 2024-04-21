@@ -31,7 +31,7 @@ def display_4(text):
 
 
 @app.route('/number/<int:n>', strict_slashes=False)
-def display_4(n):
+def display_5(n):
     return f"{n} is a number"
 
 
