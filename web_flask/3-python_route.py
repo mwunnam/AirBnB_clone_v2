@@ -17,14 +17,15 @@ def display_2():
 
 
 @app.route('/c/<text>', strict_slashes=False)
-def display(text):
+def display_3(text):
     text = text.replace('_', ' ')
     return f"C {text}"
 
 
-@app.route('/python/<text>', defaults={'text': 'is cool'},
+@app.route('/python/', defaults={'text': 'is cool'},
            strict_slashes=False)
-def display(text):
+@app.route('/python/<text>', strict_slashes=False)
+def display_4(text):
     text = text.replace('_', ' ')
     return f"Python {text}"
 
