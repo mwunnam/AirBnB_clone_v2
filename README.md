@@ -141,4 +141,4 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 ```
 <br>
 
-fork by michael and contributed by Godwin
+fork by michael and contributed by Godwin Bruce
